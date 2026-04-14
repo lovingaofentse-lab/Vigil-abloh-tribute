@@ -1,0 +1,1 @@
+{\n  "name": "vigil-abloh-tribute",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "node index.js",\n    "test": "jest"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "jest": "^26.6.0"\n  }\n}
