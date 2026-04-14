@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Museum</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#3d-viewer">3D Viewer</a></li>
+        <li><a href="#donation">Donation</a></li>
+    </ul>
+</nav>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <img src="art1.jpg" alt="Artwork 1">
+        <img src="art2.jpg" alt="Artwork 2">
+        <img src="art3.jpg" alt="Artwork 3">
+    </div>
+</section>
+
+<section id="3d-viewer">
+    <h2>3D Viewer</h2>
+    <div class="viewer-container">
+        <iframe src="3dviewer.html" frameborder="0"></iframe>
+    </div>
+</section>
+
+<section id="donation">
+    <h2>Make a Donation</h2>
+    <form action="/donate" method="post">
+        <label for="amount">Donation Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+        <button type="submit">Donate</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Our Museum. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
